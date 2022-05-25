@@ -80,8 +80,7 @@ nav ul {
 
 
 nav ul a{
-    color: var(--rosaclaro);
-    font-size: 35px;
+    font-size: 20px;
     text-decoration: none;
     /*separa as palavras */
     margin: 0 35px;
@@ -102,6 +101,15 @@ nav img{
     height: 50px;
 }
 
+.png img{
+    position: absolute;
+    left: 112px;
+    height: 100px;
+    padding: 0 1px;
+    margin: 50px;
+
+}
+
 @media(max-width:767px) {
     header .container{
         width: 100%;
@@ -117,3 +125,26 @@ nav img{
         display: none;
     }
 }
+
+/*quando a tela for abaixo de 480px*/
+@media (max-width: 480px) {
+    header .container {
+        padding: 0 40px;
+    }
+
+    nav {
+    width: :100%;
+    bottom: 0;
+    top: unset;
+    padding: 0 15px; 
+
+    }
+
+    nav ul a {
+        font-size: 12px;
+    }
+
+    nav ul a svg {
+        display: block;
+        margin: 0 35px;
+    }
