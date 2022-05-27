@@ -2,7 +2,7 @@
 
 :root{
     --rosafundo: #FCD8D4;
-    --rosaclaro: #FDF6F0;
+    --rosaclaro: #FDF6F0; /*fundo*/
     --salmao: #F5C6AA;
     --escuro: #AC7D88;
 
@@ -81,6 +81,7 @@ nav ul {
 
 nav ul a{
     font-size: 20px;
+    /*color: var (--bege)*/
     text-decoration: none;
     /*separa as palavras */
     margin: 0 35px;
@@ -108,6 +109,30 @@ nav img{
     padding: 0 1px;
     margin: 50px;
 
+}
+
+nav ul a svg {
+    display: none;
+}
+
+/*section {
+    background: #FDF6F0;
+    height: 1000px;
+}*/
+
+.about-me{
+    display: flex;
+    padding: 100px;
+}
+
+.about-me .container{
+    width: 50%;
+    padding-right: 100px;
+}
+
+.about-me .img-container img{
+    width: 50%;
+    height: 100%;
 }
 
 @media(max-width:767px) {
@@ -148,3 +173,5 @@ nav img{
         display: block;
         margin: 0 35px;
     }
+
+
