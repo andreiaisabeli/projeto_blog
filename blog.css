@@ -137,23 +137,26 @@ nav ul a svg {
 }
 
 .about-me .img-container img{
-    width: 70%;
-    height: 100%;
+    width: 60%;
+    height: 92%;
 }
 
 .about-me .img-container .line {
-    width: calc(70% + 50px);
-    height: calc(100% + 50px);
+    width: calc(64% + 50px);
+    height: calc(91% + 45px);
     border: 1px solid var(--escuro);
     position: absolute;
     top:  -25px;
-    left: calc(50% - 70%/2 - 25px);
+    left: calc(52% - 70%/2 - 25px);
 }
 
 .about-me .img-container .line.salmao{
     transform: rotate(-3.3deg);
     color: var(--salmao);
 }
+
+
+
 
 /*tablet*/
 @media(max-width:767px) {
@@ -163,7 +166,7 @@ nav ul a svg {
 
     header .container img{
         display: inline;
-        height: 45px;
+        height: 45x;
         margin-bottom: 75px;
     }
 
@@ -194,3 +197,4 @@ nav ul a svg {
         display: block;
         margin: 0 35px;
     }
+
