@@ -25,14 +25,20 @@ body, button, input, select, textarea {
     font-size: 24px;
 }
 /*margem e gordura da fonte*/
-h1,h2 {
+h2 {
     font-size: 44px;
     margin: 0;
     font-weight: 400;
 }
+
+h1 {
+    font-size: 44px;
+    margin: 0;
+    font-weight: 400;
+    color: var(--escuro);
+}
 p{ 
     font-size: 20px;
-
 
 }
 button{
@@ -51,7 +57,7 @@ button{
 
 header{
     background: ;
-    height: calc(100vh - 65px);
+    height: calc(76vh - 65px);
     display: flex;
     align-items: ;
 }
@@ -78,7 +84,6 @@ nav ul {
     justify-content: space-around;
 }
 
-
 nav ul a{
     font-size: 20px;
     /*color: var (--bege)*/
@@ -92,7 +97,7 @@ nav{
     /*espaços entre */
     justify-content: space-between;
     height: 45px;
-    padding: 0 91px;
+    padding: 0 95px;
     position: sticky;
     top: 0;
         
@@ -156,7 +161,24 @@ nav ul a svg {
 }
 
 
+.dois{
+    text-align: left;
+    left: -280px;
+    position: absolute;
+}
 
+.dois .serv {
+    left: 100px;
+    position: absolute;
+}
+
+/*.about-me .serv{
+    width: 50%;
+    padding-right: 100px;
+    width: 50%;
+    text-align: center;
+    position:  ;
+}
 
 /*tablet*/
 @media(max-width:767px) {
@@ -197,4 +219,3 @@ nav ul a svg {
         display: block;
         margin: 0 35px;
     }
-
