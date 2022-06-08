@@ -16,7 +16,7 @@ html, body{
 }
 
 body, button, input, select, textarea {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Inria Sans', sans-serif;
 }
 {
     font-size: 44px;
@@ -25,6 +25,13 @@ body, button, input, select, textarea {
     font-size: 24px;
 }
 /*margem e gordura da fonte*/
+
+/*margem e gordura da fonte*/
+/*h1,h2 {
+    font-size: 44px;
+    margin: 0;
+    font-weight: 400;
+}*/
 h2 {
     font-size: 44px;
     margin: 0;
@@ -160,6 +167,12 @@ nav ul a svg {
     color: var(--salmao);
 }
 
+.container .h2 {
+    font-size: 44px;
+    font-weight: 400;
+    color: var(--escuro);
+
+}
 
 .dois{
     text-align: left;
@@ -185,10 +198,10 @@ nav ul a svg {
     left: 360px;
     top: 150px;
     
-    background: #FFEAD8;
+    background: #F5C6AA;
     /* estilo */
     
-    border: 1px solid #FDF6F0;
+    border: 1px solid #F5C6AA;
     border-radius: 24px;
 }
 
@@ -200,10 +213,10 @@ nav ul a svg {
     left: -60px;
     top: 150px;
     
-    background: #FFEAD8;
+    background: #F5C6AA;
     /* estilo */
     
-    border: 1px solid #FDF6F0;
+    border: 1px solid #F5C6AA;
     border-radius: 24px;
 }
 
@@ -215,17 +228,79 @@ nav ul a svg {
     left: -480px;
     top: 150px;
     
-    background: #FFEAD8;
+    background: #F5C6AA;
     /* estilo */
     
-    border: 1px solid #FDF6F0;
+    border: 1px solid #F5C6AA;
     border-radius: 24px;
 }
 
 .botoes {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+    height: fit-content;
+    margin: 150px;
+}
+
+.botoes .iconmonitor{
+    position: absolute;
+    width: 60px;
+    height: 308px;
+    left:-350px;
+    top: 190px;
+}
+
+.botoes .iconfile {
+    position: absolute;
+    width: 298px;
+    height: 308px;
+    left: 70px;
+    top: 190px;
+}
+
+.botoes .iconglobe{
+    position: absolute;
+    width: 60px;
+    height: 308px;
+    left: 490px;
+    top: 190px;
+
+}
+
+
+.serv .h1 {
+    font-size: 44px;
+    margin: 55px;
+    font-weight: 400;
+    color: var(--escuro);
+
+}
+
+.tituloserv {
+    color: var(--escuro);
+    position: absolute;
+    font-size: 80px;
+    top: 205px;
+    left: -370px;
+    margin: 0px;
+}
+
+.tituloserv .aplicacao{
+    color: var(--escuro);
+    position: absolute;
+    font-size: 80px;
+    top: 1px;
+    left: 400px;
+    margin: 0px;
+    font-weight: 300px;
+}
+
+.tituloserv .site{
+    color: var(--escuro);
+    position: absolute;
+    font-size: 80px;
+    top: 1px;
+    left: 805px;
+    margin: 0px;
+    font-weight: 300px;
 }
 
 
@@ -259,7 +334,7 @@ nav ul a svg {
     header .container {
         padding: 0 40px;
     }
-
+}
     nav {
     width: :100%;
     bottom: 0;
