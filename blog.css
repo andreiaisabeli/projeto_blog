@@ -172,6 +172,63 @@ nav ul a svg {
     position: absolute;
 }
 
+.servicos {
+    height: fit-content;
+    margin: 150px;
+}
+
+.serv1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 298px;
+    height: 308px;
+    left: 360px;
+    top: 150px;
+    
+    background: #FFEAD8;
+    /* estilo */
+    
+    border: 1px solid #FDF6F0;
+    border-radius: 24px;
+}
+
+.serv2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 298px;
+    height: 308px;
+    left: -60px;
+    top: 150px;
+    
+    background: #FFEAD8;
+    /* estilo */
+    
+    border: 1px solid #FDF6F0;
+    border-radius: 24px;
+}
+
+.serv3 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 298px;
+    height: 308px;
+    left: -480px;
+    top: 150px;
+    
+    background: #FFEAD8;
+    /* estilo */
+    
+    border: 1px solid #FDF6F0;
+    border-radius: 24px;
+}
+
+.botoes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
 /*.about-me .serv{
     width: 50%;
     padding-right: 100px;
