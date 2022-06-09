@@ -405,6 +405,78 @@ nav ul a svg {
     color: #AC7D88;
 }
 
+.uniao {
+    width: 1100px;
+}
+
+.uni .png img{
+    position: relative;
+    left: -400px;
+}
+
+.portimg {
+    position: absolute;
+    width: 500px;
+    top: -392px;
+    left: 260px;
+}
+
+.portimg1{
+    position: absolute;
+    width: 500px;
+    top: -392px;
+    left: -583px;
+}
+
+.portimg2{
+    position: absolute;
+    width: 500px;
+    top: -392px;
+    left: -160px;
+}
+
+.linktree .informacao1{
+    position: absolute;
+    width: 220px;
+    height: 88px;
+    left: -535px;
+    top: -200px;
+
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+.linktree .informacao2 p {
+    position: absolute;
+    width: 220px;
+    height: 88px;
+    left: -465px;
+    top: -170px;
+
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+
+/*.uniao .png img{
+    position: absolute;
+    left: -502px;
+    height: 100px;
+    padding: 0 1px;
+    margin: 50px;
+
+}
+
 
 /*.about-me .serv{
     width: 50%;
