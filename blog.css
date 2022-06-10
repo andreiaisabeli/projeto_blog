@@ -149,17 +149,17 @@ nav ul a svg {
 }
 
 .about-me .img-container img{
-    width: 60%;
-    height: 92%;
+    width: 50%;
+    height: 100%;
 }
 
 .about-me .img-container .line {
-    width: calc(64% + 50px);
-    height: calc(91% + 45px);
+    width: calc(50% + 50px);
+    height: calc(100% + 45px);
     border: 1px solid var(--escuro);
     position: absolute;
     top:  -25px;
-    left: calc(52% - 70%/2 - 25px);
+    left: 158px;
 }
 
 .about-me .img-container .line.salmao{
@@ -268,10 +268,11 @@ nav ul a svg {
     color: var(--escuro);
     position: absolute;
     font-size: 80px;
-    top: 205px;
-    left: -370px;
+    top: 200px;
+    left: -365px;
     margin: 0px;
 }
+
 
 .tituloserv .aplicacao{
     position: absolute;
@@ -298,7 +299,22 @@ nav ul a svg {
     font-weight: 300px;
 }
 
-.infos {
+.info {
+    color: #000000;
+    position: absolute;
+    width: 234px;
+    height: 36px;
+    left: -80px;
+    top: px;
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center; 
+}
+
+.infos .info1 p {
     color: #000000;
     position: absolute;
     width: 234px;
@@ -314,12 +330,12 @@ nav ul a svg {
 
 }
 
-.infos .info2 {
+.infos .info2 p {
     position: absolute;
     width: 232px;
     height: 54px;
-    left: 430px;
-    top: -5px;
+    left: 345px;
+    top: 60px;
     font-family: 'Inria Sans';
     font-style: normal;
     font-weight: 400;
@@ -329,12 +345,12 @@ nav ul a svg {
     color: #000000;
 }
 
-.infos .info3 {
+.infos .info3 p {
     position: absolute;
     width: 278px;
     height: 42px;
-    left: 825px;
-    top: 5px;
+    left: 740px;
+    top: px;
     font-family: 'Inria Sans';
     font-style: normal;
     font-weight: 400;
@@ -348,8 +364,8 @@ nav ul a svg {
     position: absolute;
     width: 133px;
     height: 42px;
-    left: 455px;
-    top: 250px;
+    left: 350px;
+    top: 350px;
     font-family: 'Inria Sans';
     font-style: normal;
     font-weight: 400;
@@ -405,41 +421,32 @@ nav ul a svg {
     color: #AC7D88;
 }
 
-.uniao {
-    width: 1100px;
-}
-
-.uni .png img{
-    position: relative;
-    left: -400px;
-}
-
 .portimg {
     position: absolute;
-    width: 500px;
-    top: -392px;
-    left: 260px;
+    width: 550px;
+    top: -388px;
+    left: 360px;
 }
 
 .portimg1{
     position: absolute;
-    width: 500px;
-    top: -392px;
-    left: -583px;
+    width: 550px;
+    top: -388px;
+    left: -480px;
 }
 
 .portimg2{
     position: absolute;
-    width: 500px;
-    top: -392px;
-    left: -160px;
+    width: 550px;
+    top: -388px;
+    left: -60px;
 }
 
 .linktree .informacao1{
     position: absolute;
     width: 220px;
     height: 88px;
-    left: -535px;
+    left: -458px;
     top: -200px;
 
     font-family: 'Inria Sans';
@@ -455,29 +462,242 @@ nav ul a svg {
     position: absolute;
     width: 220px;
     height: 88px;
-    left: -465px;
+    left: -457px;
     top: -170px;
 
     font-family: 'Inria Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 17px;
 
     color: #000000;
 }
 
+.linktree .informacao3{
+    position: absolute;
+    width: 220px;
+    height: 88px;
+    left: -38px;
+    top: -200px;
 
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+.linktree .informacao4 p{
+    position: absolute;
+    width: 220px;
+    height: 88px;
+    left: -38px;
+    top: -170px;
+
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+.linktree .informacao5 {
+    position: absolute;
+    width: 220px;
+    height: 88px;
+    left: 380px;
+    top: -200px;
+
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+.linktree .informacao6 p{
+    position: absolute;
+    width: 220px;
+    height: 88px;
+    left: 380px;
+    top: -170px;
+
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+.curriculo p{
+    position: absolute;
+    width: 88px;
+    height: 391px;
+    left: 190px;
+    top: 80px;
+
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 48px;
+}
+
+.curriculodados p{
+    position: absolute;
+    width: 328px;
+    height: 391px;
+    left: 450px;
+    top: 80px;
+
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 48px;
+
+    color: #000000;
+}
+
+.grupo .grupoimg img{
+    position: absolute;
+    width: 659px;
+    height: 608px;
+    left: -590px;
+    top: -40px;
+}
+
+.download .baixar img {
+    position: absolute;
+    width: 425px;
+    height: 55px;
+    left: 210px;
+    top: 550px;
+}
+
+.end .final h3{
+    position: absolute;
+    width: 502px;
+    height: 58px;
+    left: -155px;
+    top: 650px;
+
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #AC7D88;
+}
+
+.texto .text p{
+    position: absolute;
+    width: 991px;
+    height: 66px;
+    left: -405px;
+    top: 750px;
+
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.botao .button img {
+    position: absolute;
+    width: 322px;
+    height: 60px;
+    left: -75px;
+    top: 880px;
+}
+
+.icons .icon1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: -25px;
+    top: 980px;
+    color: #000000;
+}
+
+.icons .icon2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 40px;
+    top: 980px;
+    color: #000000;
+}
+
+.icons .icon3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 105px;
+    top: 980px;
+    color: #000000;
+}
+
+.icons .icon4 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 155px;
+    top: 980px;
+    color: #000000;
+}
+
+.iconfoto .iconimg{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 482px;
+    top: -1010px;
+}
+
+.iconfoto .iconimg2{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 525px;
+    top: -1010px;
+}
+
+.iconfoto .iconimg3{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 570px;
+    top: -1012px;
+}
+
+.iconfoto .iconimg4{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 600px;
+    top: -1010px;
+}
 /*.uniao .png img{
     position: absolute;
     left: -502px;
     height: 100px;
     padding: 0 1px;
     margin: 50px;
-
 }
-
-
 /*.about-me .serv{
     width: 50%;
     padding-right: 100px;
@@ -485,7 +705,6 @@ nav ul a svg {
     text-align: center;
     position:  ;
 }
-
 /*tablet*/
 @media(max-width:767px) {
     header .container{
